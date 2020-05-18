@@ -12,5 +12,12 @@
         <li> <a href="pembayaran/belum_selesai">Belum Selesai</a> </li>
         <li> <a href="pembayaran/gagal">Gagal</a> </li>
     </ul>
+
+    <?php
+    $url    = '';
+    $data   = file_get_contents($url);
+    $result = json_encode($data, true);
+    ?>
+
 </body>
 </html>
