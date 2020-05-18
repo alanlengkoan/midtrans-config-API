@@ -14,3 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     echo 'halaman tidak ditemukan!';
     exit();
 }
+// untuk mengambil data
+$data = file_get_contents('php://input');
+// untuk mengubah extension file
+header('Content-Type: application/json');
