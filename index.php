@@ -11,7 +11,7 @@
         <li> <a href="pembayaran/selesai">Selesai</a> </li>
         <li> <a href="pembayaran/belum_selesai">Belum Selesai</a> </li>
         <li> <a href="pembayaran/gagal">Gagal</a> </li>
-        <li> <a href="check.php"></a> </li>
+        <li> <a href="check.php">Check</a> </li>
     </ul>    
 </body>
 </html>
