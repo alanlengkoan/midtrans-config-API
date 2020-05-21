@@ -100,8 +100,8 @@ $server_key = 'MASUKKAN SERVEY KEY';
 // url
 $url = 'https://app.sandbox.midtrans.com/snap/v1/transactions';
 // id order
-$id    = '1461335435';
-$check = 'cancel';
+$id    = ''; // order id atau transaction id
+$check = ''; // ada approve, deny, cancel, expire, refund, refund/online/direct, status, statusb2b
 // file json untuk melakukan transaksi
 $transaksi = [
     // untuk detail transaksi
