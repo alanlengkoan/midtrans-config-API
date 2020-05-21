@@ -96,7 +96,7 @@ function orderDetail($server_key, $id, $check)
 }
 
 // server key dari midtrans
-$server_key = 'SB-Mid-server-AZ2T5mIMrAgttA9Sic6CmqFA:';
+$server_key = 'MASUKKAN SERVEY KEY';
 // url
 $url = 'https://app.sandbox.midtrans.com/snap/v1/transactions';
 // id order
