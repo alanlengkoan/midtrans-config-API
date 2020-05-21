@@ -95,13 +95,11 @@ function orderDetail($server_key, $id, $check)
     return $result;
 }
 
-// server key dari midtrans
-$server_key = 'MASUKKAN SERVEY KEY';
-// url
-$url = 'https://app.sandbox.midtrans.com/snap/v1/transactions';
-// id order
-$id    = ''; // order id atau transaction id
-$check = ''; // ada approve, deny, cancel, expire, refund, refund/online/direct, status, statusb2b
+$server_key = 'MASUKKAN SERVEY KEY';                                    // server key dari midtrans
+$url        = 'https://app.sandbox.midtrans.com/snap/v1/transactions';  // url
+$id         = '';                                                       // order id atau transaction id
+$check      = '';                                                       // ada approve, deny, cancel, expire, refund, refund/online/direct, status, statusb2b
+
 // file json untuk melakukan transaksi
 $transaksi = [
     // untuk detail transaksi
