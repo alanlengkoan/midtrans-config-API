@@ -1,4 +1,4 @@
-# midtrans-config-API
+# midtrans-config-web
 
 midtrans menggunakan postman
 
